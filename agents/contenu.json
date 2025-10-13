@@ -1,0 +1,59 @@
+{
+  "accueil": {
+    "titre": "HotProd - Accélérez votre industrialisation",
+    "sous_titre": "Le partenaire stratégique des entreprises industrielles pour transformer leurs idées en production efficace.",
+    "benefices": [
+      "🔧 Expertise technique pointue pour des processus robustes et optimisés",
+      "🚀 Réduction des délais de mise sur le marché grâce à une méthodologie agile",
+      "📈 Amélioration durable de la rentabilité industrielle"
+    ]
+  },
+  "services": [
+    {
+      "titre": "Audit & Diagnostic Industriel",
+      "resume": "Identifiez les leviers d'amélioration de vos processus de production.",
+      "points": [
+        "Analyse complète des flux et des équipements",
+        "Identification des goulots d'étranglement",
+        "Recommandations opérationnelles et stratégiques"
+      ]
+    },
+    {
+      "titre": "Conception de Ligne de Production",
+      "resume": "De l'idée au plan détaillé, nous concevons vos lignes pour maximiser la performance.",
+      "points": [
+        "Études de faisabilité et simulations",
+        "Choix technologiques adaptés à vos besoins",
+        "Plans d’implantation optimisés"
+      ]
+    },
+    {
+      "titre": "Pilotage de Projets Industriels",
+      "resume": "Nous assurons la coordination et le suivi de vos projets d’industrialisation.",
+      "points": [
+        "Gestion des plannings et des budgets",
+        "Interface avec les fournisseurs et sous-traitants",
+        "Suivi qualité et conformité réglementaire"
+      ]
+    },
+    {
+      "titre": "Montée en Cadence & Lean Manufacturing",
+      "resume": "Optimisez vos performances avec des méthodes éprouvées.",
+      "points": [
+        "Déploiement des outils Lean (5S, Kaizen, SMED)",
+        "Formation des équipes à l’amélioration continue",
+        "Suivi des indicateurs de performance"
+      ]
+    }
+  ],
+  "a_propos": {
+    "experience": "Plus de 15 ans d’expertise dans l’industrialisation de produits complexes, auprès de PME et grands groupes.",
+    "valeurs": "Rigueur, transparence, engagement client. Chaque projet est une mission que nous menons avec passion.",
+    "vision": "Faire de l’industrialisation un levier stratégique de compétitivité, durable et humainement responsable."
+  },
+  "temoignage": {
+    "nom": "Claire Dubois",
+    "poste": "Directrice des opérations chez TechFab",
+    "texte": "HotProd a transformé notre approche industrielle. Leur équipe a su allier expertise technique et compréhension fine de nos enjeux. Résultat : une ligne de production opérationnelle en un temps record."
+  }
+}
