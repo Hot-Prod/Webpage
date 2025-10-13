@@ -1,0 +1,20 @@
+name: Agents IA - HotProd
+on:
+  workflow_dispatch:
+jobs:
+  run-agents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Installer dépendances
+        run: pip install openai beautifulsoup4
+      - name: Exécuter les agents
+        run: |
+          python agents/agent_contenu.py
+          python agents/agent_html.py
+          python agents/agent_qa.py
+          python agents/agent_deploiement.py
