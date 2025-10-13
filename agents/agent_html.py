@@ -1,24 +1,14 @@
-import openai, json
-
-openai.api_key = "TA_CLE_API"
+import json
 
 with open("agents/contenu.json", "r", encoding="utf-8") as f:
-    contenu = f.read()
+    contenu = json.load(f)
 
-prompt = f"""
-Convertis ce contenu JSON en fichier HTML complet (lang=fr), avec sections :
-Accueil, Services, À propos, Témoignages, Contact.
-Utilise Tailwind CDN. 
-{contenu}
-"""
+html = f"""<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"/><title>{contenu[home][title]}</title></head>
+<body><h1>{contenu[home][title]}</h1><p>{contenu[home][subtitle]}</p></body></html>"""
 
-response = openai.ChatCompletion.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": prompt}]
-)
-
-html = response["choices"][0]["message"]["content"]
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(html)
 
-print("✅ index.html mis à jour automatiquement.")
+print("✅ index.html généré à partir du contenu JSON.")
+

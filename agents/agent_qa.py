@@ -1,11 +1,9 @@
 from bs4 import BeautifulSoup
-
 with open("index.html", encoding="utf-8") as f:
-    html = f.read()
+    soup = BeautifulSoup(f, "html.parser")
 
-soup = BeautifulSoup(html, "html.parser")
+print("🔍 Vérification :")
+print("Titre :", soup.title.text if soup.title else "❌ manquant")
+print("H1 :", soup.find("h1").text if soup.find("h1") else "❌ manquant")
+print("Meta description :", "OK" if soup.find("meta", {"name": "description"}) else "❌ absente")
 
-print("✅ Vérification du site :")
-print("Meta description :", "OK" if soup.find("meta", {"name": "description"}) else "❌")
-print("Balise H1 :", soup.find("h1").text if soup.find("h1") else "❌")
-print("Formulaire :", "OK" if soup.find("form") else "❌")

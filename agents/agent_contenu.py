@@ -1,23 +1,12 @@
-import openai, json
-
-openai.api_key = "TA_CLE_API"
-
 prompt = """
-Tu es rédacteur expert pour HotProd. Génère le contenu en français du site web :
-Accueil (accroche + 3 points clés)
-4 services (titre, résumé, 3 bullets)
-À propos (expérience, valeurs, vision)
-Témoignage client
-Retourne au format JSON.
+Tu es rédacteur expert pour HotProd. Crée le contenu du site web en français :
+- Accueil (titre, sous-titre, 3 bénéfices)
+- 4 services (titre, résumé, 3 bullet points)
+- À propos (expérience, valeurs, vision)
+- 1 témoignage.
+Retourne au format JSON clair.
 """
 
-response = openai.ChatCompletion.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": prompt}]
-)
+print("🧠 Copie ce prompt dans ton IA préférée (ChatGPT par ex.) puis colle la réponse JSON dans agents/contenu.json :\\n")
+print(prompt)
 
-data = response["choices"][0]["message"]["content"]
-with open("agents/contenu.json", "w", encoding="utf-8") as f:
-    f.write(data)
-
-print("✅ Contenu généré → agents/contenu.json")
