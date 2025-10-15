@@ -1,0 +1,4 @@
+# Génère index.html racine avec choix de langue
+content = """<!doctype html><html lang='en'><head><meta charset='utf-8'/><meta name='viewport' content='width=device-width,initial-scale=1'/><title>HotProd — choose language</title></head><body style='font-family:Arial,Helvetica,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;'><div style='text-align:center;'><h1>HotProd</h1><p><a href='/Webpage/fr/'>Français</a> — <a href='/Webpage/en/'>English</a></p></div></body></html>"""
+open("index.html","w",encoding="utf-8").write(content)
+print("✅ index.html racine créé (choix langue)")

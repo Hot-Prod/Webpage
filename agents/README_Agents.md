@@ -1,13 +1,12 @@
-# Agents HotProd – mode manuel GitHub
+# Agents HotProd - mode automatisé (Codespaces / GitHub Actions)
 
-## Étapes
-1. Lancer \`python agents/agent_contenu.py\` → copier le prompt affiché → le coller dans ChatGPT.
-2. Copier la réponse JSON dans \`agents/contenu.json\`.
-3. Lancer ensuite :
-   \`\`\`bash
-   python agents/agent_html.py
-   python agents/agent_qa.py
-   python agents/agent_deploiement.py
-   \`\`\`
-4. Le site est mis à jour sur GitHub Pages.
-
+Workflow:
+1. Configurer secret GitHub: OPENAI_API_KEY (ou exporter la variable en local).
+2. Dans Codespaces: run -> python agents/agent_run_all.py
+3. Le script génère:
+   - agents/results/contenu_fr.json
+   - agents/results/contenu_en.json
+   - fr/index.html
+   - en/index.html
+   - index.html (page d'accueil avec choix langue)
+4. Vérifier logs, puis commit/push si ok.

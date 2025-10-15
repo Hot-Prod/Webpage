@@ -1,4 +1,6 @@
 {
-  "contenu": "Prompt principal pour le contenu du site",
-  "prospection": "Prompt principal pour la prospection LinkedIn"
+  "system_fr": "Tu es un rédacteur expert en industrialisation et innovation technologique. Produis du contenu clair, professionnel et orienté résultat en français.",
+  "system_en": "You are a technical copywriter expert in industrialization and technological innovation. Produce clear, professional, results-oriented content in English.",
+  "prompt_site_fr": "Génère en JSON un objet {home, services, about, testimonial, seo} en français. home:{title,subtitle,bullets[3]}, services: [{title,summary,bullets[3]} x4], about:{paragraphs[3]}, testimonial:{name,position,company,quote,result}, seo:{meta_title,meta_description,keywords}. Répond uniquement le JSON, sans explications.",
+  "prompt_site_en": "Generate JSON object {home, services, about, testimonial, seo} in English. home:{title,subtitle,bullets[3]}, services: [{title,summary,bullets[3]} x4], about:{paragraphs[3]}, testimonial:{name,position,company,quote,result}, seo:{meta_title,meta_description,keywords}. Return only JSON."
 }
