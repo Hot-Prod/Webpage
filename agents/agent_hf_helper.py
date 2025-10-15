@@ -22,7 +22,7 @@ def call_hf(prompt, system=None, max_tokens=800):
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
-        torch_dtype=torch.float32,  # CPU uniquement
+        dtype=torch.float32,  # CPU uniquement
     )
 
     inputs = tokenizer(full_prompt, return_tensors="pt")
