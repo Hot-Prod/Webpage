@@ -1,4 +1,4 @@
-name: Agents HotProd - run (OpenAI)
+name: Agents HotProd - run (HuggingFace)
 on:
   workflow_dispatch:
 jobs:
@@ -10,17 +10,16 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-      - name: Install deps
-        run: pip install openai==0.28 beautifulsoup4
-      - name: Run agents (generate content & pages)
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Installer dépendances
+        run: |
+          pip install transformers torch sentencepiece beautifulsoup4
+      - name: Générer contenu & pages
         run: |
           python agents/agent_generate_content.py
           python agents/agent_build_html.py
           python agents/agent_index_root.py
           python agents/agent_qa.py
-      - name: Upload results
+      - name: Upload pages générées
         uses: actions/upload-artifact@v4
         with:
           name: generated-pages
