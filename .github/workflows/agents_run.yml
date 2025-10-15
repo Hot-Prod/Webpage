@@ -12,7 +12,7 @@ jobs:
           python-version: '3.10'
       - name: Installer dépendances
         run: |
-          pip install transformers torch sentencepiece beautifulsoup4
+          pip install transformers torch sentencepiece beautifulsoup4 accelerate
       - name: Générer contenu & pages
         run: |
           python agents/agent_generate_content.py
