@@ -1,24 +1,23 @@
 # ============================================
-# Helper IA HuggingFace - Version légère (phi-2)
+# Helper IA HuggingFace - version ultra légère
 # ============================================
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-MODEL_NAME = "microsoft/phi-2"
+# 💡 modèle très léger (~1.1B paramètres)
+MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
-def call_hf(prompt, system=None, max_tokens=800):
+def call_hf(prompt, system=None, max_tokens=400):
     """
-    Génère du texte à partir d'un prompt via le modèle Phi-2 (léger, CPU-only)
-    Aucun GPU, aucune clé API requise.
+    Génère du texte à partir d'un prompt via TinyLlama (CPU only, rapide)
     """
     if system:
         full_prompt = f"{system}\n\nUtilisateur :\n{prompt}"
     else:
         full_prompt = prompt
 
-    print("⏳ Génération du texte avec modèle HuggingFace Phi-2...")
+    print("⏳ Génération du texte avec modèle TinyLlama...")
 
-    # Chargement du modèle et du tokenizer
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
@@ -34,6 +33,5 @@ def call_hf(prompt, system=None, max_tokens=800):
     )
 
     result = tokenizer.decode(outputs[0], skip_special_tokens=True)
-
     print("✅ Génération terminée.")
     return result

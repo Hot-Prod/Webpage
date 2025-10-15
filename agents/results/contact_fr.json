@@ -1,0 +1,3 @@
+{
+  "texte": "<h2>Contact</h2><p>Pour toute collaboration ou demande de mission :</p><form><label>Nom :</label><input type='text'><br><label>Société :</label><input type='text'><br><label>Email :</label><input type='email'><br><label>Téléphone :</label><input type='tel'><br><label>Message :</label><textarea></textarea><br><button>Envoyer</button></form><p>📍 Paris, France<br>📧 l.garnier@hotmail.com<br>📞 +33 664 247 740</p>"
+}

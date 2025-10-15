@@ -1,0 +1,36 @@
+{
+  "fr": {
+    "index": {
+      "texte": "<h2>Accélérez votre transformation industrielle</h2><p>HotProd accompagne les entreprises high-tech dans l'industrialisation, la digitalisation et l'optimisation de leurs processus de production. Nous allions expertise technique, innovation et performance opérationnelle.</p><p><a href='services.html'>Découvrir nos services →</a></p>"
+    },
+    "services": {
+      "texte": "<h2>Nos Services</h2><h3>Industrialisation de produits</h3><p>Passage du prototype à la production de masse. Optimisation DFM, qualité et process fournisseurs.</p><h3>Innovation technologique</h3><p>Intégration de solutions IoT, robotique et IA pour booster la compétitivité.</p><h3>Gestion de projets</h3><p>Application des méthodes Agile et Lean pour piloter vos projets complexes.</p><h3>Formation et accompagnement</h3><p>Formations sur les processus industriels et l’innovation. Coaching technique pour vos équipes.</p>"
+    },
+    "about": {
+      "texte": "<h2>À propos de Laurent Garnier</h2><p>Plus de 15 ans d’expérience en industrialisation et innovation technologique, en France, en Europe et en Asie.</p><p>Direction industrielle et lancement de produits innovants chez Lunii, Kickmaker et SoftBank Robotics.</p><p><strong>Valeurs :</strong> Innovation – Excellence – Collaboration</p><p><strong>Vision :</strong> Offrir des solutions qui marient technologie et performance industrielle.</p>"
+    },
+    "testimonials": {
+      "texte": "<h2>Témoignages</h2><blockquote>“Laurent a su structurer notre production et optimiser nos process en un temps record.”</blockquote><p>— Directeur industriel, startup IoT</p><blockquote>“Une expertise rare qui combine innovation et rigueur industrielle.”</blockquote><p>— Responsable innovation, PME robotique</p>"
+    },
+    "contact": {
+      "texte": "<h2>Contact</h2><p>Pour toute collaboration ou demande de mission :</p><form><label>Nom :</label><input type='text'><br><label>Société :</label><input type='text'><br><label>Email :</label><input type='email'><br><label>Téléphone :</label><input type='tel'><br><label>Message :</label><textarea></textarea><br><button>Envoyer</button></form><p>📍 Paris, France<br>📧 l.garnier@hotmail.com<br>📞 +33 664 247 740</p>"
+    }
+  },
+  "en": {
+    "index": {
+      "texte": "<h2>Accelerate your industrial transformation</h2><p>HotProd helps high-tech companies industrialize, digitize, and optimize their production processes. We combine technical expertise, innovation, and operational excellence.</p><p><a href='services.html'>Explore our services →</a></p>"
+    },
+    "services": {
+      "texte": "<h2>Our Services</h2><h3>Product Industrialization</h3><p>From prototype to mass production. DFM optimization, quality control, and supplier process improvement.</p><h3>Technological Innovation</h3><p>Integration of IoT, robotics, and AI solutions to enhance performance.</p><h3>Project Management</h3><p>Agile and Lean methodologies for effective management of complex projects.</p><h3>Training and Development</h3><p>Workshops and coaching programs for technical teams and continuous improvement.</p>"
+    },
+    "about": {
+      "texte": "<h2>About Laurent Garnier</h2><p>Over 15 years of experience in industrialization and technological innovation across Europe and Asia.</p><p>Industrial leadership and innovation experience at Lunii, Kickmaker, and SoftBank Robotics.</p><p><strong>Core Values:</strong> Innovation – Excellence – Collaboration</p><p><strong>Vision:</strong> Delivering solutions that combine technology and industrial performance.</p>"
+    },
+    "testimonials": {
+      "texte": "<h2>Testimonials</h2><blockquote>“Laurent transformed our production structure and optimized our workflows effectively.”</blockquote><p>— Industrial Director, IoT startup</p><blockquote>“His ability to merge technical innovation with manufacturing precision is remarkable.”</blockquote><p>— Innovation Manager, robotics SME</p>"
+    },
+    "contact": {
+      "texte": "<h2>Contact</h2><p>Get in touch for collaboration or project inquiries:</p><form><label>Name:</label><input type='text'><br><label>Company:</label><input type='text'><br><label>Email:</label><input type='email'><br><label>Phone:</label><input type='tel'><br><label>Message:</label><textarea></textarea><br><button>Send</button></form><p>📍 Paris, France<br>📧 l.garnier@hotmail.com<br>📞 +33 664 247 740</p>"
+    }
+  }
+}
