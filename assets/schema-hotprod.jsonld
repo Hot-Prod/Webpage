@@ -1,0 +1,616 @@
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "name": "HotProd",
+  "alternateName": "Laurent Garnier - HotProd",
+  "url": "https://hot-prod.github.io/Webpage/",
+  "logo": "https://hot-prod.github.io/Webpage/assets/logo.png",
+  "image": "https://hot-prod.github.io/Webpage/assets/hero-visual.png",
+  "description": "HotProd accompagne les entreprises high-tech dans l’industrialisation, l’innovation technologique et la performance industrielle. Services : industrialisation, IoT, Lean management, gestion de projet et coaching technique.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressCountry": "France"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Laurent Garnier",
+    "jobTitle": "Consultant en industrialisation et innovation technologique",
+    "sameAs": [
+      "https://www.linkedin.com/in/laurent-garnier-industrialisation/",
+      "https://github.com/Hot-Prod"
+    ]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+33 6 64 24 77 40",
+    "contactType": "Customer Service",
+    "areaServed": "FR",
+    "availableLanguage": ["French", "English"]
+  }],
+  "sameAs": [
+    "https://linkedin.com/company/hotprod",
+    "https://github.com/Hot-Prod",
+    "https://www.calendly.com/laurent-garnier-hotprod"
+  ],
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }]
+}
