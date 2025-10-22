@@ -22,6 +22,10 @@ jobs:
           pip install htmlmin css-html-js-minify
 
       - name: Minify HTML/CSS
+            - name: 🔍 Optimisation SEO automatique
+        run: |
+          pip install beautifulsoup4
+          python agents/agent_seo_optimize.py
         run: |
           python - <<'PY'
 import os, htmlmin
