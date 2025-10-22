@@ -1,41 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>Contact – HotProd</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Contactez HotProd pour une étude d'industrialisation, une démo ou un audit.">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 <header>
-  <h1>Contactez-nous</h1>
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="services.html">Services</a>
-    <a href="about.html">À propos</a>
-    <a href="testimonials.html">Témoignages</a>
-    <a href="../en/contact.html">EN</a>
-  </nav>
+  <div class="header-inner">
+    <div class="brand"><h1>HotProd</h1></div>
+    <nav class="desktop">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À propos</a>
+      <a href="testimonials.html">Témoignages</a>
+      <a href="../en/contact.html">EN</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-  <h2>Restons en contact</h2>
-  <p>Vous avez un projet d’industrialisation ou de transformation à lancer ? Contactez-moi directement ou prenez rendez-vous en ligne.</p>
+<main class="container">
+  <div class="card">
+    <h2>Contactez-nous ou réservez un créneau</h2>
+    <p class="small-muted">Remplissez le formulaire ci-dessous ou prenez directement rendez-vous.</p>
 
-  <form action="https://formspree.io/f/xpzeglqn" method="POST">
-    <label>Nom :</label><input type="text" name="name" required>
-    <label>Email :</label><input type="email" name="email" required>
-    <label>Entreprise :</label><input type="text" name="company">
-    <label>Message :</label><textarea name="message" rows="5"></textarea>
-    <button type="submit">Envoyer</button>
-  </form>
+    <form action="https://formspree.io/f/FORMSPREE_ENDPOINT" method="POST">
+      <div class="form-row">
+        <div>
+          <label>Nom</label>
+          <input type="text" name="name" required>
+        </div>
+        <div>
+          <label>Entreprise</label>
+          <input type="text" name="company">
+        </div>
+      </div>
+      <label>Email</label>
+      <input type="email" name="email" required>
+      <label>Téléphone</label>
+      <input type="tel" name="phone">
+      <label>Message</label>
+      <textarea name="message" rows="5"></textarea>
+      <input type="hidden" name="_subject" value="Contact HotProd">
+      <div style="margin-top:12px">
+        <button class="btn" type="submit">Envoyer</button>
+        <a class="btn" style="background:#1f2937;margin-left:10px" href="https://calendly.com/l-garnier/30min" target="_blank">📅 Prendre rendez-vous</a>
+      </div>
+    </form>
 
-  <p><a class="btn" href="https://calendly.com/laurent-garnier-hotprod/30min" target="_blank">📅 Prendre rendez-vous</a></p>
+    <p class="small-muted" style="margin-top:12px">Nous répondons en général sous 24h.</p>
+  </div>
 
-  <p>📍 Paris, France<br>📧 l.garnier@hotmail.com<br>📞 +33 6 64 24 77 40</p>
+  <div style="margin-top:18px" class="card">
+    <h4>Coordonnées</h4>
+    <p>Paris, France · l.garnier@hotmail.com · +33 6 64 24 77 40</p>
+  </div>
 </main>
 
-<footer>
-  <p>© 2025 HotProd – Laurent Garnier</p>
+<footer class="footer">
+  <p>© 2025 HotProd — Laurent Garnier</p>
 </footer>
 </body>
 </html>

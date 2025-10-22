@@ -1,72 +1,62 @@
-name: 🚀 Déploiement optimisé site HotProd (FR/EN)
+name: Deploy HotProd site (FR/EN)
 
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 🧩 Cloner le dépôt
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: ⚙️ Configurer Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      - name: 📦 Installer dépendances nécessaires
+      - name: Install minify tools
         run: |
           python -m pip install --upgrade pip
-          pip install beautifulsoup4 htmlmin css-html-js-minify
+          pip install htmlmin css-html-js-minify
 
-      - name: 🏗️ Construire le site statique
+      - name: Minify HTML/CSS
         run: |
-          echo "⚙️ Construction du site HotProd..."
-          python agents/agent_build_html.py
-          python agents/agent_index_root.py
-          python agents/agent_qa.py
-
-      - name: ✨ Minification des fichiers HTML/CSS/JS
-        run: |
-          echo "🔧 Minification du code..."
           python - <<'PY'
-          import os, htmlmin
-          from css_html_js_minify import process_single_html_file
-          
-          dossiers = ["fr", "en", "."]
-          fichiers = []
-          for dossier in dossiers:
-              if not os.path.exists(dossier): continue
-              for root, _, files in os.walk(dossier):
-                  for f in files:
-                      if f.endswith(".html") or f.endswith(".css") or f.endswith(".js"):
-                          fichiers.append(os.path.join(root, f))
+import os, htmlmin
+from css_html_js_minify import process_single_html_file
+files=[]
+for root,_,fs in os.walk("."):
+  for f in fs:
+    if f.endswith(".html") or f.endswith(".css") or f.endswith(".js"):
+      if root.startswith(".github"): continue
+      files.append(os.path.join(root,f))
+print("Files to minify:", len(files))
+for path in files:
+  try:
+    if path.endswith(".html"):
+      with open(path, "r", encoding="utf-8") as fh:
+        content=fh.read()
+      minified=htmlmin.minify(content, remove_empty_space=True)
+      with open(path,"w",encoding="utf-8") as fh:
+        fh.write(minified)
+    else:
+      process_single_html_file(path)
+  except Exception as e:
+    print("skip",path,e)
+PY
 
-          print(f"Minification de {len(fichiers)} fichiers...")
-          for f in fichiers:
-              try:
-                  process_single_html_file(f)
-                  with open(f, "r+", encoding="utf-8") as file:
-                      contenu = file.read()
-                      minifie = htmlmin.minify(contenu, remove_empty_space=True)
-                      file.seek(0)
-                      file.write(minifie)
-                      file.truncate()
-                  print(f"✅ {f} minifié")
-              except Exception as e:
-                  print(f"⚠️ Erreur minification {f}: {e}")
-          PY
-
-      - name: 🌐 Déploiement GitHub Pages
+      - name: Commit minified files
         run: |
-          echo "📤 Déploiement sur GitHub Pages..."
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add fr en index.html
-          git commit -m "🚀 Publication optimisée du site HotProd" || echo "Aucune modification détectée."
-          git push || echo "Push non nécessaire."
+          git add -A
+          git commit -m "ci: minify site" || echo "no changes"
+          git push || echo "push failed"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
