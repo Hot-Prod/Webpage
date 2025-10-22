@@ -1,65 +1,59 @@
-name: Deploy HotProd site (FR/EN)
+name: 🚀 Déploiement HotProd (FR/EN + SEO + Minify)
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Setup Python
+    steps:
+      - name: 📦 Cloner le dépôt
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurer Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      - name: Install minify tools
+      - name: ⚙️ Installer dépendances
         run: |
           python -m pip install --upgrade pip
-          pip install htmlmin css-html-js-minify
+          pip install htmlmin css-html-js-minify beautifulsoup4
 
-      - name: Minify HTML/CSS
-      - name: 🔍 Optimisation SEO automatique
+      - name: 🧠 Optimisation SEO automatique
         run: |
-          pip install beautifulsoup4
           python agents/agent_seo_optimize.py
+
+      - name: 🧩 Minification HTML/CSS
         run: |
           python - <<'PY'
 import os, htmlmin
 from css_html_js_minify import process_single_html_file
-files=[]
-for root,_,fs in os.walk("."):
-  for f in fs:
-    if f.endswith(".html") or f.endswith(".css") or f.endswith(".js"):
-      if root.startswith(".github"): continue
-      files.append(os.path.join(root,f))
-print("Files to minify:", len(files))
-for path in files:
-  try:
-    if path.endswith(".html"):
-      with open(path, "r", encoding="utf-8") as fh:
-        content=fh.read()
-      minified=htmlmin.minify(content, remove_empty_space=True)
-      with open(path,"w",encoding="utf-8") as fh:
-        fh.write(minified)
-    else:
-      process_single_html_file(path)
-  except Exception as e:
-    print("skip",path,e)
+for root, _, files in os.walk("."):
+    for f in files:
+        if f.endswith(".html") or f.endswith(".css"):
+            if root.startswith("./.github"): 
+                continue
+            path = os.path.join(root, f)
+            try:
+                if f.endswith(".html"):
+                    with open(path, "r", encoding="utf-8") as file:
+                        content = file.read()
+                    minified = htmlmin.minify(content, remove_empty_space=True)
+                    with open(path, "w", encoding="utf-8") as file:
+                        file.write(minified)
+                else:
+                    process_single_html_file(path)
+                print(f"✅ Minifié : {path}")
+            except Exception as e:
+                print(f"⚠️ Erreur sur {path}: {e}")
 PY
 
-      - name: Commit minified files
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add -A
-          git commit -m "ci: minify site" || echo "no changes"
-          git push || echo "push failed"
-
-      - name: Deploy to GitHub Pages
+      - name: 🌍 Déploiement sur GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
